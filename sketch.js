@@ -9,13 +9,13 @@ var background1Img;
 
 function preload() {
     //load the images here
-catImg  = loadAnimation("images/cat1.png");
-mouseImg = loadAnimation("images/mouse1.png");
-background1Img = loadImage("images/garden.png");
-catImg2 = loadAnimation("images/cat2.png","images/cat3.png");
-mouseImg2 = loadAnimation("images/mouse2.png","images/mouse3.png");
-catImg3 = loadAnimation("images/cat4.png");
-mouseImg3 = loadAnimation("images/mouse4.png");
+catImg  = loadAnimation("cat1.png");
+mouseImg = loadAnimation("mouse1.png");
+background1Img = loadImage("garden.png");
+catImg2 = loadAnimation("cat2.png","cat3.png");
+mouseImg2 = loadAnimation("mouse2.png","mouse3.png");
+catImg3 = loadAnimation("cat4.png");
+mouseImg3 = loadAnimation("mouse4.png");
 }
 
 function setup(){
